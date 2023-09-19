@@ -16,6 +16,9 @@ namespace commonTest
             Test0912.Drive(commander);
 
             Console.ReadLine();
+
+            Test0919.startProcess(1, 2, Test0919.addEvent());
+             
         }
     }
 }
