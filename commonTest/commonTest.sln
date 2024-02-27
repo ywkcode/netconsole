@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "commonTest", "commonTest.csproj", "{2C0A5E77-81F7-4987-95D9-AD76D33B0555}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "commonTest", "commonTest.csproj", "{2C0A5E77-81F7-4987-95D9-AD76D33B0555}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPattern", "DesignPattern", "{5FB53479-ACA2-4767-9FC1-56EBEE5D3A6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignConsole", "..\DesignConsole\DesignConsole.csproj", "{F05061CC-4E0A-487E-AF1A-413AACC925C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{2C0A5E77-81F7-4987-95D9-AD76D33B0555}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C0A5E77-81F7-4987-95D9-AD76D33B0555}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C0A5E77-81F7-4987-95D9-AD76D33B0555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F05061CC-4E0A-487E-AF1A-413AACC925C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05061CC-4E0A-487E-AF1A-413AACC925C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05061CC-4E0A-487E-AF1A-413AACC925C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05061CC-4E0A-487E-AF1A-413AACC925C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F05061CC-4E0A-487E-AF1A-413AACC925C6} = {5FB53479-ACA2-4767-9FC1-56EBEE5D3A6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {05DE72B8-A263-419F-8054-5F7D7970FE21}
